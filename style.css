@@ -1,0 +1,11 @@
+/*
+Theme Name: Hope Theme
+Author: Hope Channel Timor-Leste
+Version: 1.0
+Description: non-official HC Template with Bootstrap 5
+*/
+
+body {
+    margin: 0;
+    background-color: #212529; /* same as Bootstrap dark */
+}
