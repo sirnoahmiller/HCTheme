@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Full-width dark background -->
-<div class="full-width-wrapper text-bg-dark min-vh-100 py-4 w-100">
+<div class="full-width-wrapper min-vh-100 py-4 w-100 text-white">
 
     <div class="container">
         <div class="row">

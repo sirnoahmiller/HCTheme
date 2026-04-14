@@ -15,21 +15,26 @@
         <div class="row align-items-center">
 
             <!-- Logo / Site Title (6 columns) -->
-            <div class="col-md-4">
+            <div class="col-md-8">
                 <a href="<?php echo home_url(); ?>" class="text-decoration-none header-logo-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Logo" class="header-logo-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_horizontal_color.png" alt="Logo" class="header-logo-img">
                 </a>
             </div>
 
-            <!-- Navigation / Menu (6 columns) -->
-            <div class="col-md-8 header-nav">
-                <?php
-                wp_list_pages(array(
-                    'title_li' => '',
-                    'menu_class' => 'header-nav-list',
-                    'echo' => true
-                ));
-                ?>
+            <!-- Navigation / Menu (8 columns) -->
+            <div class="col-md-4">
+                <nav class="navbar navbar-light p-0">
+                    <div class="justify-content-end w-100" id="navbarMenu">
+                        <ul class="navbar-nav">
+                            <?php
+                            $pages = get_pages();
+                            foreach ($pages as $page) {
+                                echo '<li class="nav-item"><a class="nav-link" href="' . get_page_link($page->ID) . '">' . $page->post_title . '</a></li>';
+                            }
+                            ?>
+                        </ul>
+                    </div>
+                </nav>
             </div>
 
         </div>
