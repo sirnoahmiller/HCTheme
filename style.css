@@ -9,3 +9,57 @@ body {
     margin: 0;
     background-color: #212529;
 }
+
+/* Header Styles */
+header {
+    min-height: 120px;
+    color: #d3d3d3;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-logo-link {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-logo-img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.header-site-title {
+    display: inline-block;
+    color: #d3d3d3;
+}
+
+.header-nav {
+    text-align: right;
+}
+
+.header-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.header-nav-list li {
+    display: inline;
+}
+
+.header-nav-list li:not(:last-child)::after {
+    content: " | ";
+    margin: 0 10px;
+    color: #d3d3d3;
+}
+
+.header-nav-list a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-nav-list a:hover {
+    text-decoration: underline;
+}

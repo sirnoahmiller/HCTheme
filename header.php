@@ -8,29 +8,26 @@
 <body <?php body_class(); ?>>
 
 <!-- Full-width header wrapper -->
-<header class="text-bg-danger py-3">
+<header class="py-3">
 
     <!-- Inner Bootstrap container for grid -->
     <div class="container">
         <div class="row align-items-center">
 
             <!-- Logo / Site Title (6 columns) -->
-            <div class="col-md-6">
-                <h1 class="m-0">
-                    <a href="<?php echo home_url(); ?>" class="text-decoration-none text-dark">
-                        <?php bloginfo('name'); ?>
-                    </a>
-                </h1>
+            <div class="col-md-4">
+                <a href="<?php echo home_url(); ?>" class="text-decoration-none header-logo-link">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="Logo" class="header-logo-img">
+                </a>
             </div>
 
             <!-- Navigation / Menu (6 columns) -->
-            <div class="col-md-6 text-end">
+            <div class="col-md-8 header-nav">
                 <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'header-menu',
-                    'menu_class' => 'nav justify-content-end',
-                    'container' => false,
-                    'fallback_cb' => false
+                wp_list_pages(array(
+                    'title_li' => '',
+                    'menu_class' => 'header-nav-list',
+                    'echo' => true
                 ));
                 ?>
             </div>
