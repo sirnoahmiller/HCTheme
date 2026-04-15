@@ -4,34 +4,22 @@
     <div class="row">
 
         <!-- Sidebar (4 columns) -->
-        <div class="col-md-4 text-bg-warning">
+        <div class="col-md-4">
             <?php get_sidebar(); ?>
         </div>
 
         <!-- Main Content (8 columns) -->
-        <div class="col-md-8 text-bg-info">
+        <div class="col-md-8">
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <h1><?php the_title(); ?></h1>
+    <?php the_content(); ?>
 
-                <article class="mb-4">
-                    <h1><?php the_title(); ?></h1>
-                    <p class="text-muted">
-                        Posted on <?php the_date(); ?> by <?php the_author(); ?>
-                    </p>
-                    <?php the_content(); ?>
-                </article>
+<?php endwhile; else : ?>
 
-                <!-- Comments -->
-                <?php
-                if (comments_open() || get_comments_number()) {
-                    comments_template();
-                }
-                ?>
+    <p>No content found.</p>
 
-            <?php endwhile; else : ?>
-                <p>No content found.</p>
-            <?php endif; ?>
-
+<?php endif; ?>
         </div>
 
     </div>

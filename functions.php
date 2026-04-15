@@ -27,14 +27,3 @@ add_action('wp_enqueue_scripts', 'clean_theme_scripts');
 
 // Enable features
 add_theme_support('title-tag');
-add_theme_support('post-thumbnails');
-
-function clean_widgets_init() {
-    register_sidebar(array(
-        'name' => 'Main Sidebar',
-        'id' => 'main-sidebar',
-        'before_widget' => '<div class="mb-3">',
-        'after_widget' => '</div>',
-    ));
-}
-add_action('widgets_init', 'clean_widgets_init');
