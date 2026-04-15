@@ -9,7 +9,7 @@
 
         <!-- Main Content (8 columns) -->
         <div class="col-md-8">
-            <h1 class="display-4">Bem Vindo ba <b>Hope Channel Timor-Leste</b></h1>
+            <h1 class="display-5">Bem Vindo ba <b>Hope Channel Timor-Leste</b></h1>
             <p class="lead">Your source for uplifting and inspiring content in Timor-Leste. 
                 We bring you a variety of programs that promote hope, faith, and positive values.</p>
             <p>Explore our latest videos, articles, and community events. Join us in spreading hope and making a 
