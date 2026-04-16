@@ -9,11 +9,18 @@
 
         <!-- Main Content (8 columns) -->
         <div class="col-md-8">
-            <h1 class="display-5">Bem Vindo ba <b>Hope Channel Timor-Leste</b></h1>
-            <p class="lead">Your source for uplifting and inspiring content in Timor-Leste. 
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h1 class="display-5">Bem Vindo ba <b>Hope Channel Timor-Leste</b></h1>
+                    <p class="lead">Your source for uplifting and inspiring content in Timor-Leste. 
                 We bring you a variety of programs that promote hope, faith, and positive values.</p>
-            <p>Explore our latest videos, articles, and community events. Join us in spreading hope and making a 
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hclogo.png" alt="Hope Channel Timor-Leste" class="img-fluid rounded d-block mx-auto">
+                    <p>Explore our latest videos, articles, and community events. Join us in spreading hope and making a 
                 difference in our community.</p>
+                  </div>
+            </div>
         </div>
 
         <!-- Sidebar (4 columns) -->
