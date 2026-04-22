@@ -60,9 +60,15 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/mate-color.png" alt="Musika" class="program-image program-image-hover">
         </span>
     </a>
+    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
+        <span class="program-image-wrap">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tolu.png" alt="Musika" class="program-image program-image-default">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tolu-color.png" alt="Musika" class="program-image program-image-hover">
+        </span>
+    </a>
 
 </div>
 
 <div class="p-3 text-center">
-    <a href="<?php echo home_url('/programs'); ?>" class="btn btn-primary">Explore Programs</a>
+    <a href="<?php echo home_url('/programs'); ?>" class="btn btn-primary">Esplora Programa sira</a>
 </div>

@@ -17,7 +17,7 @@
             <!-- Logo / Site Title (8 columns) -->
             <div class="col-md-4 text-center text-md-start">
                 <a href="<?php echo home_url(); ?>" class="text-decoration-none header-logo-link">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_horizontal_color.png" alt="Logo" class="header-logo-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_horizontal.png" alt="Logo" class="header-logo-img">
                 </a>
             </div>
 

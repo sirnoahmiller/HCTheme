@@ -10,7 +10,9 @@
             <!-- Footer Left (4 columns) - Site Name -->
             <div class="col-md-4 text-center">
                 <div class="footer-left">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.png" alt="Logo" class="footer-logo">
+                    <a href="<?php echo home_url(); ?>" class="text-decoration-none">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo.png" alt="Logo" class="footer-logo">
+                    </a>
                 </div>
             </div>
 
