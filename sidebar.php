@@ -1,74 +1,35 @@
-<div class="program-links text-center">
+<div class="card">
+  <div class="card-body">
 
-    <a href="https://your-link-1.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/devosaum.png" alt="Devosaum Dader" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/devosaum-color.png" alt="Devosaum Dader" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/lj.png" alt="Lian Juventude" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/lj-color.png" alt="Lian Juventude" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/health.png" alt="Total Health" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/health-color.png" alt="Total Health" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/musika.png" alt="Musika" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/musika-color.png" alt="Musika" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/escola.png" alt="Diskusaum Escola Sabadu" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/escola-color.png" alt="Diskusaum Escola Sabadu" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tais.png" alt="Dalan ba Lalehan" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tais-color.png" alt="Dalan ba Lalehan" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/dalan.png" alt="Dalan ba Lalehan" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/dalan-color.png" alt="Dalan ba Lalehan" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/film.png" alt="Film Motivasi" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/film-color.png" alt="Film Motivasi" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/moris.png" alt="Musika" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/moris-color.png" alt="Musika" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/mate.png" alt="Musika" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/mate-color.png" alt="Musika" class="program-image program-image-hover">
-        </span>
-    </a>
-    <a href="https://your-link-2.com" target="_blank" rel="noopener noreferrer" class="program-image-link">
-        <span class="program-image-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tolu.png" alt="Musika" class="program-image program-image-default">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tolu-color.png" alt="Musika" class="program-image program-image-hover">
-        </span>
-    </a>
+    <div class="mb-4 text-center">
+        <h4><b>Ita prontu atu estuda Bíblia ka lae?</b></h4>
+        <p class="text-secondary small">Atu nune'e ita-boot nia moris bele hetan mudansa. Se ita-boot hetan ksolok hodi tuir ami, no hakarak tebes atu estuda Bíblia hamutuk, favór kontaktu ami agora.</p>
+        <a href="https://wa.me/67078844440" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-lg mb-2">
+            <span class="whatsapp-icon" aria-hidden="true"></span>
+            <span>Konversa Agora</span>
+        </a>
+        <a href="https://wa.me/67078844440" target="_blank" rel="noopener noreferrer" class="btn btn-success btn-lg mb-2">
+            <span class="whatsapp-icon" aria-hidden="true"></span>
+            <span>livru espirituál sira</span>
+        </a>
+    </div>
 
-</div>
+  <hr />
 
-<div class="p-3 text-center">
-    <a href="<?php echo home_url('/programs'); ?>" class="btn btn-primary">Esplora Programa sira</a>
+        <?php get_template_part( 'programs' ); ?>
+
+<hr />
+
+  <h4 class="display-6">Kontaktu</h4>
+
+  <h6><b>Email Eskritóriu nian</b></h6>
+  <p class="text-secondary small">Administrator@adventist.tl</p>
+
+  <h6><b>Telefone Eskritóriu nian</b></h6>
+  <p class="text-secondary small">WhatsApp: +670 7884 4440</p>
+
+  <h6><b>Enderesu Eskritóriu</b></h6>
+  <p class="text-secondary small">Fomento 1 | Comoro | Dili | Timor Leste</p>
+
+  </div>
 </div>

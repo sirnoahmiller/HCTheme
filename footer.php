@@ -40,7 +40,7 @@
 
             <!-- Footer Right (4 columns) - Made with -->
             <div class="col-md-4 text-center">
-                <p class="mb-0 footer-credit">Made with ❤️ &copy; 2026 - 2027 Hope Channel Timor-Leste</p>
+                <p class="mb-0 footer-credit">&copy; 2026 Hope Channel Timor-Leste</p>
             </div>
 
         </div>

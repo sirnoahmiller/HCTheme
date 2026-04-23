@@ -32,6 +32,7 @@
                                 echo '<li class="nav-item"><a class="nav-link" href="' . get_page_link($page->ID) . '">' . $page->post_title . '</a></li>';
                             }
                             ?>
+                            <a href="<?php echo home_url(); ?>" class="btn btn-outline-success">Donate</a>
                         </ul>
                     </div>
                 </nav>

@@ -148,12 +148,12 @@ header {
   display: block;
 }
 
+/* Category */
 .categorylist {
-    font-size: 12px;
+    font-size: 14px;
 }
 .categorylist ul {
     padding-left: 0;
-    color: #278af3;
 }
 .categorylist li {
     padding: 0.25rem 0;
@@ -161,7 +161,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: #b3b3b3 1px solid;
+}
+.categorylist a {
+    color: #278af3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+.categorylist a:hover,
+.categorylist a:focus {
+    color: #033860;
 }
 
 /* Footer */
