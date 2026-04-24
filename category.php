@@ -12,7 +12,7 @@
                 <?php if ( $post = get_page_by_path( 'evanjelizasaun', OBJECT, 'post' ) ) : ?><a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>">Evanjelizasaun</a><?php endif; ?>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-                <?php if ( $post = get_page_by_path( 'musica', OBJECT, 'post' ) ) : ?><a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>">Músika</a><?php endif; ?>
+                <?php if ( $post = get_page_by_path( 'musika', OBJECT, 'post' ) ) : ?><a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>">Músika</a><?php endif; ?>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
                 <?php if ( $post = get_page_by_path( 'informativu', OBJECT, 'post' ) ) : ?><a href="<?php echo esc_url( get_permalink( $post->ID ) ); ?>">Informativu</a><?php endif; ?>

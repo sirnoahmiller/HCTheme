@@ -25,15 +25,28 @@
             <div class="col-md-8 d-flex justify-content-center">
                 <nav class="navbar navbar-light p-0">
                     <div class="justify-content-end w-100" id="navbarMenu">
+
                         <ul class="navbar-nav">
                             <?php
                             $pages = get_pages();
+
                             foreach ($pages as $page) {
+                                if ($page->post_name === 'donate') {
+                                    continue;
+                                }
+
                                 echo '<li class="nav-item"><a class="nav-link" href="' . get_page_link($page->ID) . '">' . $page->post_title . '</a></li>';
                             }
                             ?>
-                            <a href="<?php echo home_url(); ?>" class="btn btn-outline-success">Donate</a>
+                            <li class="nav-item">
+                                <?php $donate_page = get_page_by_path('donate'); ?>
+
+                                <?php if ($donate_page) : ?>
+                                    <a href="<?php echo esc_url( get_permalink($donate_page->ID) ); ?>" class="btn btn-outline-success">Donate</a>
+                                <?php endif; ?>
+                            </li>
                         </ul>
+
                     </div>
                 </nav>
             </div>

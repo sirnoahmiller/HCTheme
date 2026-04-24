@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card mb-4 bg-transparent border-0">
   <div class="card-body">
 
     <div class="mb-4 text-center">
