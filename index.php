@@ -34,18 +34,16 @@
 
                 <div class="col-md-6 mb-4">
 
-                    <div class="video-wrap">
-                        <iframe
-                            src="https://www.youtube.com/embed/QT1md7G8EDA"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
-                        </iframe>
+                    <div class="text-center">
+
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner5.jpg"
+                        alt="Welcome Image"
+                        class="img-fluid mb-4">
+
                     </div>
 
-                    <h1 class="mt-3 display-6">Variasaun maka ami nia forsa</h1>
-                    <?php get_template_part( 'category' ); ?>
                     <h6 class="display-6">Konteúdu Kristaun ba família, oras 24 loron 7 iha semana ida.</h6>
+                    <?php get_template_part( 'category' ); ?>
 
                 </div>
             </div>
