@@ -23,6 +23,19 @@ main {
     flex: 1;
 }
 
+.inline-list {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inline-list li {
+  margin: 0;
+}
+
+
 /* Header */
 header {
     min-height: 80px;
@@ -129,6 +142,11 @@ header {
 
 .program-image-link:hover .program-image-hover {
     opacity: 1;
+}
+
+.contact-card {
+  background-color: #d9f1ff;
+  border-radius: 12px;
 }
 
 /* Index */

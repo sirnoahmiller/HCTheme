@@ -1,6 +1,12 @@
 <?php get_header(); ?>
 
-<h1>404 - Not Found</h1>
+<div class="container py-4">
+	
+	<h1>404 - Not Found</h1>
 <p>Sorry, this page does not exist.</p>
+	
+</div>
+
+
 
 <?php get_footer(); ?>

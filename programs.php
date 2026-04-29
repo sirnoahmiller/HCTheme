@@ -18,13 +18,13 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/health-color.png" alt="Total Health" class="program-image program-image-hover">
         </span>
     </a>
-    <a href="<?php echo home_url('/musika'); ?>" rel="noopener noreferrer" class="program-image-link">
+    <a href="<?php echo home_url('/muzika'); ?>" rel="noopener noreferrer" class="program-image-link">
         <span class="program-image-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/musika.png" alt="Musika" class="program-image program-image-default">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/musika-color.png" alt="Musika" class="program-image program-image-hover">
         </span>
     </a>
-    <a href="<?php echo home_url('/eskola'); ?>" rel="noopener noreferrer" class="program-image-link">
+    <a href="<?php echo home_url('/biblia'); ?>" rel="noopener noreferrer" class="program-image-link">
         <span class="program-image-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/escola.png" alt="Diskusaum Escola Sabadu" class="program-image program-image-default">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/escola-color.png" alt="Diskusaum Escola Sabadu" class="program-image program-image-hover">
@@ -66,7 +66,13 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/tolu-color.png" alt="Musika" class="program-image program-image-hover">
         </span>
     </a>
-
+	    <a href="<?php echo home_url('/hope-kids'); ?>" rel="noopener noreferrer" class="program-image-link">
+        <span class="program-image-wrap">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/pitapat.png" alt="Pit-a-Pat" class="program-image program-image-default">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/programs/pitapat-color.png" alt="Pit-a-Pat" class="program-image program-image-hover">
+        </span>
+    </a>
+	
 </div>
 
 <div class="p-3 text-center">
