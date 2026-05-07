@@ -2,23 +2,33 @@
 
 <div class="container py-4">
     <div class="row">
+		
+		<div class="col-md-8">
 
-        <!-- Sidebar (4 columns) -->
-        <div class="col-md-8">
-            
-            <?php while (have_posts()) : the_post(); ?>
+			<?php if (is_page('hope-kids')) : ?>
 
-                <?php the_content(); ?>
+				<div class="row">
+					<div class="col-md-6">
+						<div>Column 1</div>
+					</div>
+					<div class="col-md-6">
+						<div>Column 2</div>
+					</div>
+				</div>
 
-            <?php endwhile; ?>
+			<?php else : ?>
 
-        </div>
+				<?php while (have_posts()) : the_post(); ?>
+					<?php the_content(); ?>
+				<?php endwhile; ?>
 
-        <!-- Main Content (8 columns) -->
+			<?php endif; ?>
+
+		</div>
+
         <div class="col-md-4">
             <?php get_sidebar(); ?>
         </div>
-
     </div>
 </div>
 
