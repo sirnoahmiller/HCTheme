@@ -7,14 +7,7 @@
 
 			<?php if (is_page('hope-kids')) : ?>
 
-				<div class="row">
-					<div class="col-md-6">
-						<div>Column 1</div>
-					</div>
-					<div class="col-md-6">
-						<div>Column 2</div>
-					</div>
-				</div>
+				<?php get_template_part('hopekids'); ?>
 
 			<?php else : ?>
 

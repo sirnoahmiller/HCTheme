@@ -4,6 +4,17 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2LTFQP0CT"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-H2LTFQP0CT');
+	</script>
+	
 </head>
 <body <?php body_class(); ?>>
 
@@ -28,28 +39,42 @@
 
                         <ul class="navbar-nav">
                             <?php
-                            $pages = get_pages();
+								$current_page_id = get_queried_object_id();
+								$pages = get_pages();
 
-                            foreach ($pages as $page) {
-                                if ($page->post_name === 'donate') {
-                                    continue;
-                                }
+								foreach ($pages as $page) {
+									if ($page->post_name === 'donate') {
+										continue;
+									}
 
-                                echo '<li class="nav-item"><a class="nav-link" href="' . get_page_link($page->ID) . '">' . $page->post_title . '</a></li>';
-                            }
-                            ?>
-                            <li class="nav-item">
-                                <?php $donate_page = get_page_by_path('donate'); ?>
+									$active_class = ((int) $page->ID === (int) $current_page_id) ? ' active' : '';
 
-                                <?php if ($donate_page) : ?>
-                                    <a href="<?php echo esc_url( get_permalink($donate_page->ID) ); ?>" class="btn btn-outline-success">Donate</a>
-                                <?php endif; ?>
+									echo '<li class="nav-item">';
+									echo '<a class="nav-link' . esc_attr($active_class) . '" href="' . esc_url(get_page_link($page->ID)) . '">' . esc_html($page->post_title) . '</a>';
+									echo '</li>';
+								}
+							?>
+							
+							<?php
+								$donate_page = get_page_by_path('donate');
+								$donate_active = $donate_page && (int) $donate_page->ID === (int) get_queried_object_id();
+								?>
+
+								<?php if ($donate_page) : ?>
+									<a
+										href="<?php echo esc_url(get_permalink($donate_page->ID)); ?>"
+										class="btn <?php echo $donate_active ? 'btn-success' : 'btn-outline-success'; ?>"
+									>
+										Donate
+									</a>
+							<?php endif; ?>
+
                             </li>
                         </ul>
 
                     </div>
                 </nav>
-            </div>
+            </div> <!-- End of Navigation / Menu (4 columns) -->
 
         </div>
     </div>
