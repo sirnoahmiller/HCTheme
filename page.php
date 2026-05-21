@@ -9,6 +9,10 @@
 
 				<?php get_template_part('hopekids'); ?>
 
+			<?php elseif (is_page('livru')) : ?>
+
+				<?php get_template_part('livru'); ?>
+
 			<?php else : ?>
 
 				<?php while (have_posts()) : the_post(); ?>
