@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/esperansa/public_html/wp-content/themes/HCTheme/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R . $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH.git $DEPLOYPATH.cpanel.yml $DEPLOYPATH.github
