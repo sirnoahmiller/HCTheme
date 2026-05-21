@@ -21,7 +21,7 @@
 		<h4 class="display-6 mb-2">Kontaktu</h4>
 
 		<h6 class="mb-1"><b>Email Eskritóriu nian</b></h6>
-		<p class="text-secondary small mb-3">hopechannel@esperansa.tl</p>
+		<p class="text-secondary small mb-3">hopechannel@esperansa.tv</p>
 
 		<h6 class="mb-1"><b>Telefone Eskritóriu nian</b></h6>
 		<p class="text-secondary small mb-3">WhatsApp: +670 7884 4440</p>
