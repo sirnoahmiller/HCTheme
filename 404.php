@@ -2,8 +2,8 @@
 
 <div class="container py-4">
 	
-	<h1>404 - Not Found</h1>
-<p>Sorry, this page <b>does not exist.</b></p>
+	<h1><b>404 - Not Found</b></h1>
+<p>Sorry, this page <b>does not exist...</b></p>
 	
 </div>
 
