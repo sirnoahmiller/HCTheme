@@ -2,7 +2,7 @@
 
     <!-- Book 1 -->
     <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 shadow-sm mx-auto" style="width: 60%;">
             <img src="https://placehold.co/300x420?text=Book+Cover" class="card-img-top" alt="Book Cover">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Titulu Livru 1</h5>
@@ -22,7 +22,7 @@
 
     <!-- Book 2 -->
     <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 shadow-sm mx-auto" style="width: 60%;">
             <img src="https://placehold.co/300x420?text=Book+Cover" class="card-img-top" alt="Book Cover">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Titulu Livru 2</h5>
@@ -42,7 +42,7 @@
 
     <!-- Book 3 -->
     <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 shadow-sm mx-auto" style="width: 60%;">
             <img src="https://placehold.co/300x420?text=Book+Cover" class="card-img-top" alt="Book Cover">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Titulu Livru 3</h5>
