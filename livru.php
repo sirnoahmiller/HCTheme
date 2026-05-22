@@ -7,8 +7,7 @@
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Titulu Livru 1</h5>
                 <p class="text-muted small mb-2">Autór: Naran Autór</p>
-                <p class="card-text small flex-grow-1">Deskrisaun badak kona-ba livru ida ne'e. Bele inklui tema, objetivu, ka mensajen prinsipál.</p>
-                <div class="d-flex gap-2 mt-3">
+<div class="d-flex gap-2 mt-3">
                     <a href="#" class="btn btn-outline-secondary btn-sm flex-fill">
                         <i class="bi bi-download me-1"></i> EPUB
                     </a>
@@ -27,8 +26,7 @@
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Titulu Livru 2</h5>
                 <p class="text-muted small mb-2">Autór: Naran Autór</p>
-                <p class="card-text small flex-grow-1">Deskrisaun badak kona-ba livru ida ne'e. Bele inklui tema, objetivu, ka mensajen prinsipál.</p>
-                <div class="d-flex gap-2 mt-3">
+<div class="d-flex gap-2 mt-3">
                     <a href="#" class="btn btn-outline-secondary btn-sm flex-fill">
                         <i class="bi bi-download me-1"></i> EPUB
                     </a>
@@ -47,8 +45,7 @@
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Titulu Livru 3</h5>
                 <p class="text-muted small mb-2">Autór: Naran Autór</p>
-                <p class="card-text small flex-grow-1">Deskrisaun badak kona-ba livru ida ne'e. Bele inklui tema, objetivu, ka mensajen prinsipál.</p>
-                <div class="d-flex gap-2 mt-3">
+<div class="d-flex gap-2 mt-3">
                     <a href="#" class="btn btn-outline-secondary btn-sm flex-fill">
                         <i class="bi bi-download me-1"></i> EPUB
                     </a>
